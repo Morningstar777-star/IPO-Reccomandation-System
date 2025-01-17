@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+Certainly! Here’s a sample description for your IPO Recommendation System project that you can use on your GitHub repository:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# IPO Recommendation System
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The IPO Recommendation System is a web application designed to help investors make informed decisions about Initial Public Offerings (IPOs). The system allows users to add IPOs and account details, configure weights for different criteria, and receive personalized IPO recommendations based on their account funds and configured weights.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add IPOs**: Enter details such as IPO name, GMP percentage, category, type, subscription times, and amount.
+- **Add Accounts**: Specify available funds for different accounts.
+- **Configure Weights**: Adjust weights for different criteria such as GMP and allotment chances to influence recommendations.
+- **Personalized Recommendations**: Get IPO recommendations tailored to your account funds and configured weights.
+- **Combined Allotment Chances**: View the combined chances of getting an IPO allotted if applying from all accounts.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 1: Add IPOs
+Enter the details of the IPOs you are interested in, including the name, GMP percentage, category, type, subscription times, and amount.
 
-### `npm run build`
+### Step 2: Add Account Details
+Specify the available funds for each of your accounts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 3: Configure Weights
+Adjust the weights for different criteria to influence the recommendations. For example, you can prioritize GMP percentage or allotment chances.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Step 4: View Recommendations
+Get personalized IPO recommendations based on your account funds and configured weights. Additionally, view the combined chances of getting an IPO allotted if applying from all accounts.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/ipo-recommendation-system.git
+   cd ipo-recommendation-system
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+   ```sh
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! Please follow these steps to contribute:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+If you have any questions or suggestions, feel free to reach out to the project maintainer at your.email@example.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize this description to better fit your project and preferences.
